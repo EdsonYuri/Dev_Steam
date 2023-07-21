@@ -1,0 +1,33 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+.remove{
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.title, .price{
+    font-size: 16px;
+
+}
+
+.price{
+   color: #BEEB14
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.image{
+    object-fit: contain;
+}

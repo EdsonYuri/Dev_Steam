@@ -1,0 +1,23 @@
+.session{
+    margin: 80px 0;
+}
+
+.saleConteiner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gameConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 850px){
+    .saleConteiner{
+        justify-content: center;
+    }
+}
